@@ -12,6 +12,7 @@ Analyze the response and the Output.
 
 The aim is to understand how to request help from AI tools for tasks like writing Python code, integrating with APIs, comparing outputs, and generating actionable insights.
 Program:
+```
 from nltk.sentiment import SentimentIntensityAnalyzer
 import nltk
 
@@ -35,7 +36,7 @@ if sentiment['compound'] > 0:
     print("\nInsight: The review is positive and suitable for marketing promotion.")
 else:
     print("\nInsight: The review tone is neutral or negative.")
-
+```
 Output:
 Generated Review:
 
